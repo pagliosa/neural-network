@@ -1,6 +1,6 @@
 # ===============================
 # About: Multilayer Perceptron and Estimation of Embedding Parameters
-# Dependences: utils.r and timeSeries.r (Canon package)
+# Dependences: utils.r and timeSeries.r
 # Author: Rodrigo Mello, Lucas Pagliosa
 # Date of creation: 19/09/18
 # Last revision: 19/09/18
@@ -39,8 +39,8 @@
 # M is the number of output neurons
 
 # Put below the dir path of where you stored those files
-source("~/Canon/R/utils.r")
-source("~/Canon/R/timeSeries.r")
+source("utils.r")
+source("timeSeries.r")
 
 library(ggplot2)
 
