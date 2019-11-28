@@ -1,8 +1,18 @@
 # Neural Network
 
 ## Usage
-Download mlp.r, utils.r and timeSeries.r in the same directory
-Compile mlp.r
+- Download in the same directory:
+  - mlp.r 
+  - utils.r
+  - timeSeries.r
+
+- Compile mlp.r:
+
+```R
+source(mlp.r)
+```
+
+- Call:
 
 ```R
 nnPipeline()
